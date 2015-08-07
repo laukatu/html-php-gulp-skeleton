@@ -1,9 +1,16 @@
 'use strict';
 
-var gulp = require('gulp');
+var config       = require('../config');
+var gulp        = require('gulp');
+var runSequence = require('run-sequence');
 
-gulp.task('deploy', ['prod'], function() {
+gulp.task('deploy', ['clean'], function(cb) {
 
-  // Any deployment logic should go here
+  cb = cb || function() {};
+  global.isProd = true;
 
+  global.rand = Math.floor(Math.random() * 99999999999999) + 99999999999;
+
+  runSequence(['styles', 'images', 'fonts', 'scripts'], 'inject', cb);
+  
 });

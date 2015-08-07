@@ -1,0 +1,42 @@
+@import 'vars';       // Variables used in Sass
+@import 'reset';
+@import 'clearfix';
+
+/*
+// Demo Styles - Use your own here
+*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: $mainSize;
+	-webkit-font-smoothing: antialiased;
+  background: url(../images/noise.png) top left repeat;
+}
+
+article {
+  width: 600px;
+  margin: 100px auto;
+  background: $backgroundColor;
+  color: $textColor;
+  padding: 50px;
+  text-align: center;
+  box-sizing: border-box;
+
+  h1 {
+    font-size: $bigSize + px;
+    line-height: $bigSize + (($bigSize / 100) * 30) + px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: $mainSize + px;
+    margin-top: 30px;
+    line-height: $mainSize + (($mainSize / 100) * 30) + px;
+  }
+
+  a {
+    color: $linkColor;
+  }
+
+}
