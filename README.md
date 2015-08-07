@@ -1,4 +1,4 @@
-html-gulp-skeleton
+html-php-gulp-skeleton
 =====================================
 Current version: 1.0.0
 
@@ -14,7 +14,7 @@ It's also the skeleton we use for our projects in laukatu.com
 
 We assume that you have nodejs (and therefore npm) installed in your computer, be it Linux, Mac, or Windows.
 
-1. Clone this repo from `https://github.com/laukatu/html-gulp-laukatu-skeleton.git`
+1. Clone this repo from `https://github.com/laukatu/html-php-gulp-skeleton.git`
 2. Run `npm install` from the root directory of the cloned repo (where this README.md is located). This will install all the dependencies (Gulp, SASS, etc...)
 3. Run `gulp dev` (may require installing Gulp globally: `npm install gulp -g`)
 4. All the contents in the folder `app` will be processed in development mode and will output in the `deploy` folder, so you can access your project there in the browser. No minification occurs with `gulp dev`.
