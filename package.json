@@ -9,10 +9,10 @@
       "url": "http://www.laukatu.com/"
     }
   ],
-  "description": "yet to write",
+  "description": "A boilerplate using Gulp, SASS with concatenation and minification process for both development and deployment",
   "repository": {
     "type": "git",
-    "url": "https://github.com/___________/____.git"
+    "url": "https://github.com/laukatu/html-php-gulp-skeleton.git"
   },
   "keywords": [
     "gulp",
